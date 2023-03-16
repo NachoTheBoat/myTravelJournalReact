@@ -22,7 +22,7 @@ export default [
     title: "Porto Alegre",
     description:
       "Porto Alegre es la capital y ciudad más grande del estado brasileño de Río Grande del Sur. Cuenta con una población de 1.420.667 habitantes y de 4.276.475 de habitantes para su área metropolitana. La ciudad está ubicada en la conjunción de cinco ríos, entre los cuales se encuentra el río Guaíba (que en realidad es un lago), continuación del río Jacuí poco antes de su desembocadura en la laguna de los Patos. Porto Alegre es un gran centro industrial del sur de Brasil y está ubicado en una zona estratégica para el Mercosur, debido a su proximidad con respecto a Buenos Aires, Montevideo, Asunción, Rosario y Córdoba. Los habitantes de este estado son llamados gaúchos, el plato típico es el churrasco (carne asada) y el mate es la infusión tradicional.",
-    img: "./public/poa.jpg",
+    img: "../public/poa.jpg",
     pais: "Brasil",
     location: "https://goo.gl/maps/6sTLArL6D7Hy8xM76",
   },
