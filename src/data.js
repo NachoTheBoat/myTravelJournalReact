@@ -4,7 +4,7 @@ export default [
     title: "Humahuaca",
     description:
       "Humahuaca es la ciudad cabecera del departamento homónimo, en la provincia de Jujuy, Argentina. Está ubicada a lo largo de la RN9 al norte de San Salvador de Jujuy, a 2.939 m s. n. m.; está organizada con una Municipalidad y diferentes centros vecinales; hasta finales del s. XIX fue uno de los más importantes centros comerciales coloniales del antiguo camino al Alto Perú. En ella se destacan sus calles angostas y empedradas, dignas de recorrer a pie, con sus casas bajas de adobe conservando su fisonomía histórica",
-    img: "./public/humahuaca.jpg",
+    img: "../public/humahuaca.jpg",
     pais: "Argentina",
     location: "https://goo.gl/maps/uwkRPAL9fByeY3Z4A",
   },
