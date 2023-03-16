@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", cursive;
+  font-style: normal;
+  letter-spacing: 0.075em;
+}
+
+header {
+  position: relative;
+  background-color: #f55a5a;
+
+  max-width: 100%;
+  color: aliceblue;
+  height: 4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+hr {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  background-color: #fda5a5;
+  border: solid 0.5px #f3eded;
+}
+.location {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+}
+.location a {
+  color: rgb(160, 160, 160);
+}
+
+.card--img {
+  max-width: 50%;
+  border-radius: 1rem;
+  margin-right: auto;
+  display: inline-block;
+  transition: 1s ease;
+}
+.card--img:hover {
+  -webkit-transform: scale(00.9);
+  -ms-transform: scale();
+  transform: scale();
+  transition: 1s;
+  transform: scale3d(3);
+  box-shadow: 5px 3px 3px #d8bfbf;
+}
+
+.card--description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  flex-wrap: wrap;
+  margin-right: auto;
+}
+.card--description h2 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  padding: 2rem;
+  display: flex;
+  max-width: 90%;
+}
+@media (max-width: 1270px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card--description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card--img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card--img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .location {
+    font-size: small;
+  }
+  h2 {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .card--description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  * {
+    font-size: small;
+  }
+}
+/* @media (max-width: 1005) {
+  img {
+    display: flex;
+  }
+} */
